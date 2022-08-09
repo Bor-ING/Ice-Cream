@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #BA3041;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.button__products {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 14px 46px 14px 46px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    margin-top: 42px;
+    max-width: 72px;
+    cursor: pointer;
+}
+
+.main__img {
+    max-height: 740px;
+}
+
+.index {
+    color: #fff;
+}
+
+.title {
+    font-weight: bold;
+    color: #BA3041;
+    font-family: 'Poppins', sans-serif;
+    line-height: 100%;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+.statistics__cafes {
+    text-align: right;
+}
+
+.statistics__food__trucks {
+    text-align: right;
+    margin-top: 50px;
+}
+
+/* .ellipse__1 {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #BA3041;
+    position: absolute;
+    margin: 0px 0px 41px 38px;
+    z-index: -1;
+}
+
+.ellipse__2 {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #BA3041;
+    position: absolute;
+} */
+
+.button__products:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #BA3041;
+    -webkit-transition: all 0.3s ease;;
+}
+
+.index {
+    
+}

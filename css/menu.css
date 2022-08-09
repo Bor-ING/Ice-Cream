@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.main__menu {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.button__buy {
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 14px 46px 14px 46px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #BA3041;
+    -webkit-transition: all 0.3s ease;;
+}
+
+.button__buy:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #BA3041;
+    -webkit-transition: all 0.3s ease;;
+}
