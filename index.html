@@ -7,17 +7,8 @@
     <title>Ice Cream</title>
     <link rel="shortcut icon" href="img/mini-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/content.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <style>
-        .colortext {
-          color: #BA3041;
-        }
-       </style>
+    
 </head>
 <body>
     <div class="main">
@@ -27,12 +18,12 @@
                     <img src="img/white-logo.png" alt="">
                 </div>
                 <ul class="menu" id="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">How It’s Made</a></li>
-                    <li><a href="">Our Products</a></li>
-                    <li><a href="">Contacts</a></li>
+                    <li><a class="btn__menu" href="#coment">About Us</a></li>
+                    <li><a class="btn__menu" href="#how__content">How It’s Made</a></li>
+                    <li><a class="btn__menu" href="#products">Our Products</a></li>
+                    <li><a class="btn__menu" href="#footer">Contacts</a></li>
                 </ul>
+                
                 <div class="button__buy">
                     <p>Buy Now →</p>
                 </div>
@@ -45,7 +36,7 @@
                     </h1>
                     <p class="text">We have the most delicious and natural ice<br>cream for you.</p>
                     <div class="button__products">
-                        <p>Products</p>
+                        <a class="btn" href="#products">Products</a>
                     </div>
                 </div>
                 <img class="main__img" src="img/main.png" alt="">
@@ -81,7 +72,7 @@
             </div>
 
             <div class="content">
-                <div class="products">
+                <div id="products" class="products">
                     <h1 class="main__title">
                         products
                     </h1>
@@ -127,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="products">
+                <div id="how__content" class="products">
                     <h1 class="main__title">
                         HOW IT'S MADE?
                     </h1>
@@ -172,17 +163,37 @@
                     <img class="scale" src="img/Rectangle 18.png" alt="">
                     <img class="scale" src="img/Rectangle 19.png" alt="">
                 </div>
+
+                <div id="coment" class="coment">
+                    <div class="container">
+                        <div class="button">
+                            <img src="img/Arrow-Left.svg" alt="">
+                        </div>
+                        
+                        <div class="coment_box">
+                            <img src="img/coment.png" alt="">
+                            <div class="coment_text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio neque quae soluta repellendus dolores aspernatur molestias illum, itaque quas obcaecati reiciendis animi explicabo id at maiores necessitatibus, earum maxime!
+                            </div>
+                        </div>
+                        
+                        <div class="button">
+                            <img src="img/Arrow-Right.svg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         
-        <footer>
+        <footer id="footer">
             <div class="container">
                 <div class="logo">
                     <img src="img/black-logo.png" alt="">
                 </div>
                 <div class="footer_content">
                     <div class="footer_text">
-                        DON'T HESITATE TO CALL <span>+61 (0) 123 456 789</span>
+                        DON'T HESITATE TO CALL 
+                        <a class="tel" href="tel:+610123456789">+61 (0) 123 456 789</a>
                     </div>
                     <div class="social">
                         <a href="">
@@ -203,5 +214,7 @@
             </div>
         </footer>
     </div> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

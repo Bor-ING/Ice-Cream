@@ -1,3 +1,7 @@
+@import url(menu.css);
+@import url(header.css);
+@import url(content.css);
+
 body {
     margin: 0;
     padding: 0;
@@ -82,7 +86,7 @@ h2 {
     border-radius: 100px;
     margin-top: 42px;
     max-width: 108px;
-    -webkit-transition: all 0.3s ease;;
+    -webkit-transition: all 0.3s ease;
 }
 
 .how__content {
@@ -108,12 +112,9 @@ h2 {
 }
 
 .cards {
+    margin-top: 142px;
     display: flex;
     justify-content: space-between;
-}
-
-.cards {
-    margin-top: 177px;
 }
 
 .gallery {
@@ -122,7 +123,7 @@ h2 {
     grid-template-rows: 400px 400px ; 
     column-gap: 97px;
     row-gap: 97px;
-    margin-top: 177px;
+    margin-top: 142px;
 }
 
 .scale {
@@ -133,8 +134,60 @@ h2 {
     transform: scale(1.2);
 }
 
+.coment .container .button img{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #F5F5F5;
+    border-radius: 14px;
+    margin-top: 42px;
+    max-width: 72px;
+    cursor: pointer;    
+}
+
+.coment .container .button img:hover{
+    color: rgb(255, 255, 255);
+    background-color: #BA3041;
+    -webkit-transition: all 0.3s ease;;
+}
+
+.coment .container .coment_box {
+    padding: 70px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    margin: 0 57px 0 57px;
+}
+
+.coment .container .coment_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+
+color: #000000;
+}
+
+.coment .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coment {
+    margin-top: 142px;
+}
+
+.coment .container .coment_box img {
+    margin-right: 62px;
+}
+
 footer {
-    margin-top: 155px;
+    margin-top: 142px;
     height: 212px;
     padding: 32px 0 42px;
     background-color: #F5F5F5;
@@ -184,4 +237,20 @@ footer .container .text {
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #747474;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tel {
+    color: #BA3041;
+}
+
+.tel:hover {
+    color: #000000;
+}
+
+span {
+    color: #BA3041;
 }

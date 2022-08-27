@@ -1,5 +1,5 @@
 .products {
-    margin-top: 100px;
+    margin-top: 142px;
 }
 
 .text__products {
@@ -55,4 +55,8 @@
 
 .how__content {
     max-height: 600px;
+}
+
+.coment img {
+    max-width: 124px;
 }
